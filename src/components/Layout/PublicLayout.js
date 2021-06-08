@@ -1,4 +1,5 @@
 import React from "react"
+import Greeting from "../greeting"
 import {
   Link
 } from "react-router-dom"

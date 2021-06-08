@@ -6,17 +6,12 @@ import Greeting from "../greeting"
 import {
   BrowserRouter as Router,
   Route,
-  Redirect
 } from "react-router-dom"
 
 class Switcher extends React.Component {
   render() {
     return(
       <Router>
-        <Redirect
-          from='/'
-          to='/greeting'
-        />
         <Route 
           path='/'
           component={PublicLayout}

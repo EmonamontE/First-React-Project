@@ -39,7 +39,7 @@ class Weather extends React.Component {
         country: undefined,
         wind: undefined,
         pressure: undefined,
-        error: 'Город не введен или город не найден'
+        error: 'Город не введен или не найден'
       })
     }
   }
@@ -47,7 +47,7 @@ class Weather extends React.Component {
   render() {
     return(
       <div className="container">
-        <Info className="info"/>
+        <Info/>
         <Form className="form" weatherMethod={this.gettingWeather} />
         <WeatherInfo 
           temp={this.state.temp}
