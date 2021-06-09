@@ -3,9 +3,9 @@ import React from "react"
 class WeatherInfo extends React.Component {
   render() {
     return(
-      <div>
+      <div className="fs-4">
         { this.props.city &&
-          <div className="fs-4">
+          <div>
             <p>Местоположение: {this.props.city}, {this.props.country}</p>
             <p>Температура: {this.props.temp}</p>
             <p>Ветер: {this.props.wind} м/с</p>

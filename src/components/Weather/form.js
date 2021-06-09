@@ -11,7 +11,7 @@ class Form extends React.Component {
           className="form-control me-2"
           type="text"
           name="city"
-          placeholder="Название города на английском"/>
+          placeholder="Название города"/>
         <button className="btn btn-primary">Показать погоду</button>
       </form>
     );
