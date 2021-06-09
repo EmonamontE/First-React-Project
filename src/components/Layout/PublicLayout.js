@@ -15,7 +15,7 @@ class PublicLayout extends React.Component {
             to='/greeting'
             className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
           >
-            <span className="fs-4">Test Task Axbit</span>
+            <span className="fs-4">First React Project</span>
           </Link>
           <ul className="nav nav-pills">
             <li className="nav-item me-2">
